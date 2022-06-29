@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body">
+    <div class="main-div">
+      <div class="dukkanim">Tech Dükkanım</div>
+      <div class="linkler">
+        <button onclick="document.location='//127.0.0.1:5500/homepage.html'">
+          Anasayfa
+        </button>
+        <button
+          onclick="document.location='//127.0.0.1:5500/products.html'"
+          target="_blank"
+        >
+          Ürünler
+        </button>
+        <button onclick="document.location='//127.0.0.1:5500/aboutUs.html'">
+          Hakkımızda
+        </button>
+        <button onclick="document.location='//127.0.0.1:5500/contact.html'">
+          İletişim
+        </button>
+      </div>
+    </div>
+
+    <div class="main-div2">
+      <h2>İletişim</h2>
+      <div class="form-container">
+        <form>
+      
+          <label for="fname">Ad</label>
+          <input type="text" id="fname" name="firstname" placeholder="Adınızı giriniz">
+      
+          <label for="lname">Soyad</label>
+          <input type="text" id="lname" name="lastname" placeholder="Soyadınızı giriniz">
+      
+          <label for="country">Şehir </label>
+          <select id="country" name="country">
+            <option value="istanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="Bursa">Bursa</option>
+          </select>
+      
+          <label for="subject">Konu</label>
+          <textarea id="subject" name="subject" placeholder="Göndermek istediğiniz mesaj.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Gönder">
+      
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+.body {
+  background-color: #f0ebe3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-div {
+  width: 1000px;
+  background-color: #e4dccf;
+  display: flex;
+  position: fixed;
+  top: 0;
+  margin: auto;
+}
+
+.main-div2 {
+  width: 1000px;
+  height: 1000px;
+  background-color: #ccc2b1;
+  margin-top: 44.4px;
+}
+
+.main-div3{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 5px;
+}
+
+.about-us{
+    float: left;
+    padding: 10px;
+}
+
+.about-us h2{
+    color: #4796ac;
+}
+
+
+.left {
+    flex: 35%;
+    padding: 15px 0;
+  }
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+.dukkanim {
+  background-color: #e4dccf;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: x-large;
+  color: #576f72;
+  display: flex;
+  flex-direction: inherit;
+  width: 100%;
+}
+
+.linkler {
+  background-color: #e4dccf;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #e4dccf; /* Green */
+  border: none;
+  color: #576f72;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #e4dccf;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #f0ebe3;
+  border: 2px solid #e4dccf;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #576f72;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #f0ebe3;
+  padding: 5px 5px 0 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 25px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* Style the search box */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the navigation links */
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }

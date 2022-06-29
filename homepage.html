@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Dükkanım</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body">
+    <div class="main-div">
+      <div
+        class="dukkanim"
+        onclick="document.location='//127.0.0.1:5500/homepage.html'"
+      >
+        Tech Dükkanım
+      </div>
+      <div class="linkler">
+        <button onclick="document.location='//127.0.0.1:5500/homepage.html'">
+          Anasayfa
+        </button>
+        <button
+          onclick="document.location='//127.0.0.1:5500/products.html'"
+          target="_blank"
+        >
+          Ürünler
+        </button>
+        <button onclick="document.location='//127.0.0.1:5500/aboutUs.html'">
+          Hakkımızda
+        </button>
+        <button onclick="document.location='//127.0.0.1:5500/aboutUs.html'">
+          İletişim
+        </button>
+      </div>
+    </div>
+
+    <div class="main-div2">
+      <h2>Anasayfa</h2>
+      <div class="main-div3">
+        <div class="left" style="background-color: #ccc2b1">
+          <h2>Menü</h2>
+          <input
+            type="text"
+            id="mySearch"
+            onkeyup="myFunction()"
+            placeholder="Search.."
+            title="Type in a category"
+          />
+
+          <ul id="myMenu">
+            <li><a href="#">MacBook</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Akıllı Saatler</a></li>
+            <li><a href="#">Fotoğraf Makinesi</a></li>
+          </ul>
+        </div>
+        <div>
+          <p style="margin-left: 10px; flex: 65%; padding: 15px">
+            Tech Dükkanım sitemize hoşgeldiniz. Bu sitemizde sizler için
+            elektronik aletlerimizi listeledik. Ürünler sekmesinden ürünlerimize
+            ulaşabilirsiniz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
